@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: #def4c6;
   }
   body {
     font-family:fantasy;
@@ -10,7 +11,7 @@
     display:flex;
     justify-content: end;
     padding: 60px;
-    background-color: bisque;
+    background-color: #1c7c54;
   }
 
   body header ul {
@@ -26,67 +27,86 @@
   .aboutme h2 {
     font-size: 200%;
     text-align: center;
-    background-color: aqua;
+    background-color: #73e2a7;
   }
   .aboutme p {
     margin-top: 100px;
     text-align: center;
-    background-color: aqua;
+    background-color: #73e2a7;
   }
   .myprojects h3 {
     font-size: 200%;
     text-align: center;
-    background-color: aqua;
+    background-color: #73e2a7;
     margin-top: 100px;
+  }
+  .myprojects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .card1 {
     text-align: center;
-    border-style: solid;
-    border-width: 5px;
+    border-style: double;
+    border-width: 10px;
     padding: 10px;
     margin: 20px;
-    flex: 0 0 300px;
+    flex: 0 0 100px;
     border-radius: 50px;
-    box-shadow: 15px 15px 15px blue;
+    box-shadow: 15px 15px 15px #1b512d;
+    background-color: none;
   }
   .card {
-    border-style: solid;
-    border-width: 5px;
+    border-style:double;
+    border-width: 10px;
     padding: 10px;
     margin: 20px;
-    flex: 0 0 150px;
+    flex: 0 0 100px;
     border-radius: 50px;
-    box-shadow: 15px 15px 15px blue;
-    width:50%;
-    display: inline-block;
+    box-shadow: 15px 15px 15px #1b512d;
+    background-color: none;
+    text-align: center;
+    width: 45%;
+    flex-wrap: wrap;
+
+  }
+  .card header {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+  .card1 header {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
   }
 
   .contactme h4 {
     font-size: 200%;
     text-align: center;
-    background-color: aqua;
+    background-color: #73e2a7;
     margin-top: 100px;
+    margin-bottom: 25px;
   }
   .contactme ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50 px;
   }
   a:link {
-    color: blue;
+    color: #0D1F22;
   }
   
   a:visited {
-    color: black;
+    color: #0D1F22;
   }
   
   a:hover {
-    color: green;
+    color: #264027;
   }
   
   a:active {
-    color: red;
+    color: #264027;
   }
   
   a:link, a:visited {
