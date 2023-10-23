@@ -1,17 +1,21 @@
 * {
     box-sizing: border-box;
-    background-color: #def4c6;
+    
   }
   body {
     font-family:fantasy;
     margin: 0;
+    background-image: url(./simon-berger-twukN12EN7c-unsplash.jpg);
+    background-size:auto;
+    background-repeat:no-repeat;
   }
+
+
 
   .main-header {
     display:flex;
     justify-content: end;
     padding: 60px;
-    background-color: #1c7c54;
   }
 
   body header ul {
@@ -23,29 +27,41 @@
     float: right;
     text-decoration: none;
   }
+  h1 {
+    font-size: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .aboutme img {
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 25%;
+  }
 
   .aboutme h2 {
     font-size: 200%;
     text-align: center;
-    background-color: #73e2a7;
+    margin-top: 50px;
   }
   .aboutme p {
     margin-top: 100px;
     text-align: center;
-    background-color: #73e2a7;
+  }
+ 
+  .myprojects {
+    display: flex;
+    flex-direction: column;
   }
   .myprojects h3 {
     font-size: 200%;
     text-align: center;
-    background-color: #73e2a7;
     margin-top: 100px;
+    flex-wrap: nowrap;
   }
-  .myprojects {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
   .card1 {
     text-align: center;
     border-style: double;
@@ -54,45 +70,58 @@
     margin: 20px;
     flex: 0 0 100px;
     border-radius: 50px;
-    box-shadow: 15px 15px 15px #1b512d;
-    background-color: none;
+    box-shadow: 15px 15px 15px #d87871;
   }
+
   .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     border-style:double;
     border-width: 10px;
     padding: 10px;
     margin: 20px;
     flex: 0 0 100px;
     border-radius: 50px;
-    box-shadow: 15px 15px 15px #1b512d;
+    box-shadow: 15px 15px 15px #d87871;
     background-color: none;
     text-align: center;
     width: 45%;
-    flex-wrap: wrap;
-
   }
   .card header {
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
+    margin: 40px;
   }
   .card1 header {
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
+    margin: 40px;
   }
+
+  /* #card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
 
   .contactme h4 {
     font-size: 200%;
     text-align: center;
-    background-color: #73e2a7;
     margin-top: 100px;
     margin-bottom: 25px;
   }
   .contactme ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50 px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
   }
+  .contactme li {
+    justify:center;
+  }
+
   a:link {
     color: #0D1F22;
   }
