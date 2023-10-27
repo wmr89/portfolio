@@ -110,7 +110,7 @@ h1 {
   border: solid 4px black;
   border-radius: var(--radius);
   flex: 0 0 100%;
-  box-shadow: 15px 15px 15px #d87871;
+  /* box-shadow: 15px 15px 15px #d87871; */
   background-image: url(./horiseon.png);
   background-size:cover;
   background-repeat:no-repeat;
@@ -122,7 +122,7 @@ h1 {
   width: 50%;
   margin: 5px;
   border-radius: var(--radius);
-  box-shadow: 15px 15px 15px #d87871;
+  /* box-shadow: 15px 15px 15px #d87871; */
   background-color: none;
   text-align: center;
   background-image: url(./css-cheatsheet-crop.png);
@@ -139,7 +139,7 @@ h1 {
   width: 50%;
   margin: 5px;
   border-radius: var(--radius);
-  box-shadow: 15px 15px 15px #d87871;
+  /* box-shadow: 15px 15px 15px #d87871; */
   background-color: none;
   text-align: center;
   background-image: url(./work-in-progress.png);
@@ -197,9 +197,52 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .project-card {
-      flex: 0 0 100%;
       flex-direction: column;
-  } */
+  }
+  body {
+    background-size: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .project-card {
+      flex-direction:row;
+  }
+  body {
+    background-size: cover;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  .project-card {
+      flex-direction: column;
+  }
+  body {
+    background-size: auto;
+  }
+} */
+
+.project1 {
+  transition: all .2s ease-in-out;
+}
+
+.project1:hover {
+  transform: scale(0.9);
+}
+
+.card2 {
+  transition: all .2s ease-in-out;
+}
+
+.card2:hover {
+  transform: scale(0.9);
+}
+
+.card3 {
+  transition: all .2s ease-in-out;
+}
+
+.card3:hover {
+  transform: scale(0.9);
 }
