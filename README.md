@@ -12,13 +12,12 @@ This website can be used to view my projects and contact me. Projects can be vie
 
 Vistors can conntact me by clicking on the email link.
 
-![alt text](assets/images/screenshot.png)
-
+![alt text](./assets/portfolio.png)
 ## Credits
 
 Background Photo by <a href="https://unsplash.com/@8moments?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Simon Berger</a> on <a href="https://unsplash.com/photos/landscape-photography-of-mountains-twukN12EN7c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ## License
 
-Refere to LICENSE in the repo.
+Refer to LICENSE in the repo.
 ---
