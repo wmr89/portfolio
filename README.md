@@ -16,6 +16,8 @@ Vistors can conntact me by clicking on the email link.
 ## Credits
 
 Background Photo by <a href="https://unsplash.com/@8moments?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Simon Berger</a> on <a href="https://unsplash.com/photos/landscape-photography-of-mountains-twukN12EN7c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Garden Planner Photo
+Photo by PhotoMIX Company: https://www.pexels.com/photo/closeup-photo-of-sprout-1002703/
 
 ## License
 
