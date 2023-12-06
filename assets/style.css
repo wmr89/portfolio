@@ -144,6 +144,17 @@ h1 {
   background-size:cover;
   background-repeat:no-repeat;
 }
+
+.card4 {
+  border: solid 4px black;
+  flex: 0 0 45%;
+  width: 50%;
+  margin: 5px;
+  border-radius: var(--radius);
+  background-color: none;
+  text-align: center;
+  background-color: #84d386;
+}
   
 .card header {
   border-top-right-radius: var(--radius);
